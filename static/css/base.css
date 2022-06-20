@@ -70,8 +70,17 @@ body {
 	z-index: -1;
 }
 
+a{
+    color: #880f4d;
+}
+a:hover{
+    color:#280416;
+    text-decoration:none;
+}
+
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
+    background: #880f4d !important;
+    border: #880f4d !important;
     color: #fff !important;
 }
 
