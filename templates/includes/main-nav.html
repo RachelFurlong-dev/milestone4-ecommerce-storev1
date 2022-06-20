@@ -8,7 +8,7 @@
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Rating</a>
                 <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -17,10 +17,10 @@
                 Coffee
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="coffee-link">
-                <a href="" class="dropdown-item">Jamaica Blue Mountain Coffee</a>
-                <a href="" class="dropdown-item">Marley Coffee</a>
-                <a href="" class="dropdown-item">Sea Island Coffee</a>
-                <a href="" class="dropdown-item">All Drinks</a>
+                <a href="{% url 'products' %}?category=jamaica_blue_mountain_coffee" class="dropdown-item">Jamaica Blue Mountain Coffee</a>
+                <a href="{% url 'products' %}?category=marley_coffee" class="dropdown-item">Marley Coffee</a>
+                <a href="{% url 'products' %}?category=sea_island" class="dropdown-item">Sea Island Coffee</a>
+                <a href="{% url 'products' %}?category=jamaica_blue_mountain_coffee,marley_coffee,sea_island" class="dropdown-item">All Coffee</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Speciality Foods
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Sauces</a>
-                <a href="" class="dropdown-item">Chocolate & Cakes</a>
-                <a href="" class="dropdown-item">Oils</a>
-                <a href="" class="dropdown-item">All Foods</a>
+                <a href="{% url 'products' %}?category=sauces" class="dropdown-item">Sauces</a>
+                <a href="{% url 'products' %}?category=chocolate_cakes" class="dropdown-item">Chocolate & Cakes</a>
+                <a href="{% url 'products' %}?category=oils" class="dropdown-item">Oils</a>
+                <a href="{% url 'products' %}?category=sauces,chocolate_cakes,oils" class="dropdown-item">All Foods</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
