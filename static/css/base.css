@@ -102,6 +102,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.textbrand{
+    color:#880f4d;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
