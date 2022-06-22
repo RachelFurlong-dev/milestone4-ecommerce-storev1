@@ -105,6 +105,19 @@ a.category-badge > span.badge:hover {
 .textbrand{
     color:#880f4d;
 }
+.btn-dark {
+    color: #fff;
+    background-color: #880F4D;
+    border-color: #880F4D;
+    border-radius:0px;
+}
+
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus{
+    background: #660c39;
+    color: white;
+}
 
 /* -------------------------------- Media Queries */
 
