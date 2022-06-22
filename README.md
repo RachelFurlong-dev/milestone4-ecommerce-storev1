@@ -1,108 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# NeroItalia Ecommerce Website
 
-Welcome RachelFurlong-dev,
+[Neroitalia live site](https://)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Neroitalia Ecommerce Store](screenshots/mockups.png)
+Established in 1998, Neroitalia Ltd is now an online speciality coffee and food distributor working closely with Italian & Caribbean food producers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# About Neroitalia
+Founded in 1998 as a speciality food business in Hampshire UK, NeroItalia has years of experience in supplying tasty blends of coffee and teaching the ‘art of espresso’, to cafe owners and restauranteurs for the real Caffè taste experience. At NeroItalia, we want to share our passion for good coffee and speciality foods that we have been fortunate to experience through our friends from the Continent and the Caribbean. 
 
-## Gitpod Reminders
+## Audiences
+Houseplant lovers have already demonstrated their enthusiasm for online platforms such as Instagram and YouTube, where they can share their favourite houseplants and get new ideas. There is also a demand for information on how to care for and grow new houseplants from cuttings. Houseplants have become more appealing to online audiences – especially amongst people who may not have their own garden. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+##  Neroitalia visitor goals 
+To summarise - Neroitalia require a more efficient way to find products and purchase items using an updated paymet features via Stripe payments
+ 
+## Neroitalia business goals 
+The company already has a WordPress Website (https://neroitalia.co.uk/) However, the site requires an upgrade due to new products coming on-stream and an growing audience developed during lockdown in 2020. A new layout is required to enable visitors to find products more easily and also to increase trade via the website to businesses. The payment options reuire an upgrade from the current PayPal only payment option to a wider range of choices including Stripe payments.
 
-`python3 -m http.server`
+## Neroitalia user stories 
+![User Stories Spreadsheet](screenshots/user-stories.png)
 
-A blue button should appear to click: _Make Public_,
+# Design:
+## Colour scheme
+Neroitalia would like to continue with the current brand colours within the new site.
+- #89104d dark purple
+- #f8f8f8 light grey
+- #222222 black
 
-Another blue button should appear to click: _Open Browser_.
+## Typography:
+Montserrat is the font family used across the website with open-sans & sans-serif as a fall-back font.   
+Montserrat is a geometric sans-serif typeface designed by Argentine graphic designer Julieta Ulanovsky and released in 2011. It was inspired by posters, signs and painted windows from the first half of the twentieth century, seen in the historic Montserrat neighborhood of Buenos Aires. Montserrat is a free and open source font available via Google Fonts.
+## Images:
+The homepage hero image will be used in the new website to aid customer recognition of the brand. Curent product images will be carried accross to the new site.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Wireframes:
+All my wireframes have been created in Adobe XD. You can see my wireframes in the folder [here](/wireframes)
 
-A blue button should appear to click: _Make Public_,
+# Categories update:
+- The previous website, due to its age and a number of people adding products meant that categories have expanded and some are not used any more. The new website will streamline the categories to reflect the current product offering. The new categories will be accessible to the customer on the home page via a series of drop down menus, so products can be easily found.
+![Dropdown Menus](example.png)
 
-Another blue button should appear to click: _Open Browser_.
+# More than one category for some products. :
+- Some itupdateems willl feature in more than one category - for example, Marley Coffee Simmer Down Coffee is also in the Organic and Decaf categories.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+# Features:
+## Responsive layouts
+- The app is responsive on all device sizes. 
+![Responsive Mockup](screenshots/mockups.png). 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#
+# Technologies Used:
+## Languages 
+- HTML
+- CSS
+- JS
+- Python
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Frameworks, Libraries & Programs
+- BootStrap V4.6
+    - BootStrap is a modern responsive CSS framework and was used to assist with the responsiveness and styling of the website.
+    - Google Fonts was used - specifically the 'Montserrat’ web font, which is used for all text within the app
+- Font Awesome
+    - Font Awesome was used for icons such as the ‘lorry’ on the homepage for aesthetic and UX purposes.
+- jQuery
+    - jQuery was used for javascript functionality
+- Git
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- Github
+    - GitHub was used to store the project's code after being pushed from Git.
+- Adobe XD: version 49.0.12.14
+    - Adobe XD was used to create the logo and wireframes for the app. I used this because I am familiar with Adobe products and shortcuts to speed up development. Also EKC Group provides free student access to XD. I will try out Balsamiq in the future. 
+- Adobe Photoshop: version 23.2.2
+    - Adobe Photoshop was used to resize images and edit photos for the app.
+- Djamgo
+    - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.)
+- Heroku
+    - The project was deployed to Heroku. Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
-------
 
-## Release History
+# Deployment 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Accessibility
+Accessible features include:
+- Adding alt tags via the jinga templating language to user uploaded images.
+- For linked icons, I used aria labels indicating the link destination.
+- Created responsive layouts which I tested across multiple screen sizes. 
+- Validated code 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Credits:
+## Media credits:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+# Code credits:
