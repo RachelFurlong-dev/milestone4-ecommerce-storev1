@@ -8,17 +8,14 @@ Established in 1998, Neroitalia Ltd is now an online speciality coffee and food 
 # About Neroitalia
 Founded in 1998 as a speciality food business in Hampshire UK, NeroItalia has years of experience in supplying tasty blends of coffee and teaching the ‘art of espresso’, to cafe owners and restauranteurs for the real Caffè taste experience. At NeroItalia, we want to share our passion for good coffee and speciality foods that we have been fortunate to experience through our friends from the Continent and the Caribbean. 
 
-## Audiences
-Houseplant lovers have already demonstrated their enthusiasm for online platforms such as Instagram and YouTube, where they can share their favourite houseplants and get new ideas. There is also a demand for information on how to care for and grow new houseplants from cuttings. Houseplants have become more appealing to online audiences – especially amongst people who may not have their own garden. 
+## Neroitalia user stories 
+![User Stories Spreadsheet](screenshots/user-stories.png)
 
 ##  Neroitalia visitor goals 
-To summarise - Neroitalia require a more efficient way to find products and purchase items using an updated paymet features via Stripe payments
+To summarise - Neroitalia require a more efficient way to find products and purchase items using an updated payment features via Stripe payments
  
 ## Neroitalia business goals 
 The company already has a WordPress Website (https://neroitalia.co.uk/) However, the site requires an upgrade due to new products coming on-stream and an growing audience developed during lockdown in 2020. A new layout is required to enable visitors to find products more easily and also to increase trade via the website to businesses. The payment options reuire an upgrade from the current PayPal only payment option to a wider range of choices including Stripe payments.
-
-## Neroitalia user stories 
-![User Stories Spreadsheet](screenshots/user-stories.png)
 
 # Design:
 ## Colour scheme
@@ -38,10 +35,11 @@ All my wireframes have been created in Adobe XD. You can see my wireframes in th
 
 # Categories update:
 - The previous website, due to its age and a number of people adding products meant that categories have expanded and some are not used any more. The new website will streamline the categories to reflect the current product offering. The new categories will be accessible to the customer on the home page via a series of drop down menus, so products can be easily found.
-![Dropdown Menus](example.png)
+![Dropdown Menus](menu_drop_down.png)
 
-# More than one category for some products. :
-- Some itupdateems willl feature in more than one category - for example, Marley Coffee Simmer Down Coffee is also in the Organic and Decaf categories.
+# Nice to have:
+## More than one category for some products. :
+- Some items will feature in more than one category - for example, Marley Coffee Simmer Down Coffee is also in the Organic and Decaf categories.
 
 
 # Features:
@@ -49,7 +47,7 @@ All my wireframes have been created in Adobe XD. You can see my wireframes in th
 - The app is responsive on all device sizes. 
 ![Responsive Mockup](screenshots/mockups.png). 
 
-#
+
 # Technologies Used:
 ## Languages 
 - HTML
