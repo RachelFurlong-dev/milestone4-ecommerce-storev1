@@ -112,11 +112,12 @@ a.category-badge > span.badge:hover {
 .textbrand{
     color:#880f4d;
 }
+.text-info {
+    color: #880f4d !important;
+}
+
 .btn-dark {
-    color: #fff;
-    background-color: #880F4D;
-    border-color: #880F4D;
-    border-radius:0px;
+    background-color: #880f4d !important;
 }
 
 .btn-dark:hover,
@@ -148,6 +149,11 @@ btt-link,
     height: 2px;
 }
 
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
