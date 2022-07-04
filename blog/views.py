@@ -1,8 +1,13 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from django.contrib import messages
 
-from blog.models import Post
+from .models import Post
 # Create your views here.
 
 def view_blog(request):
-    return render(request, 'blog/blog.html')
+    posts = Post.objects.all()
+    template = 'blog/blog.html'
+    context = {
+        'posts':posts,
+    }
+    return render(request, template, context)

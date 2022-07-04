@@ -20,4 +20,18 @@
                 <hr>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                {% for post in posts %}
+                    {{ post.post_title }}
+                    <br>
+                    {{ post.publish_date }}
+                    <br>
+                    {{ post.author }}
+                    <br>
+                    {{ post.body }}
+                    <br>
+                {% endfor %}
+            </div>
+        </div>
 {% endblock %}
